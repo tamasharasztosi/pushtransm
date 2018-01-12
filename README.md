@@ -1,18 +1,11 @@
 # Pushtransm
 #### Uses Pushbullet to notify when something has happened.
 
-*Requires a Pushbullet registration*
+*Requires a Pushbullet registration at https://www.pushbullet.com*
 
 Basic usage:
 
-> python speedtest.py
-
-Sends data in every 10 mins and saves data to .csv:
-
-> crontab -e
-
-> */10 * * * * /usr/bin/python /home/pi/speedtest/speedtest-cron.sh
-
+> pushtransm.sh
 
 
 *tamasharasztosi, 2018*
